@@ -7,7 +7,7 @@ import { ProductService } from '../product.service';
   templateUrl: './product-tracklisting.component.html',
   styleUrls: ['./product-tracklisting.component.css']
 })
-export class ProductTracklistinComponent implements OnInit {
+export class ProductTracklistingComponent implements OnInit {
 
   albumInfo : Album;
 

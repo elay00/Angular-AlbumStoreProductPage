@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProductTracklistinComponent } from './product-tracklisting.component';
+import { ProductTracklistingComponent } from './product-tracklisting.component';
 
-describe('ProductTracklistinComponent', () => {
-  let component: ProductTracklistinComponent;
-  let fixture: ComponentFixture<ProductTracklistinComponent>;
+describe('ProductTracklistingComponent', () => {
+  let component: ProductTracklistingComponent;
+  let fixture: ComponentFixture<ProductTracklistingComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProductTracklistinComponent ]
+      declarations: [ ProductTracklistingComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProductTracklistinComponent);
+    fixture = TestBed.createComponent(ProductTracklistingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
